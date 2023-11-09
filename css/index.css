@@ -1,0 +1,150 @@
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+    background-color: #134857;
+}
+
+.el-pagination.is-background .el-pager li:hover {
+    color: #134857 !important;
+}
+
+.el-button--primary {
+    background-color: #134857;
+    border: none;
+}
+
+.el-button--text {
+    color: #134857;
+}
+
+.el-checkbox__input.is-checked+.el-checkbox__label {
+    color: #134857;
+}
+
+.el-checkbox__input.is-focus .el-checkbox__inner {
+    border-color: #134857;
+}
+
+.el-checkbox.is-bordered.is-checked {
+    border-color: #134857;
+}
+
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+  border-color: #134857 !important;
+  background-color: #134857 !important;
+}
+
+.el-checkbox__inner:hover {
+    border-color: #134857 !important;
+}
+
+.el-switch.is-checked .el-switch__core {
+    border-color: #134857;
+    background-color: #134857;
+}
+
+.el-switch__core {
+    border-color: #f9d27d;
+    background-color: #f9d27d;
+}
+
+.el-switch__label.is-active {
+    color: #22a2c3;
+}
+
+.el-tabs__item.is-active {
+    color: #22a2c3;
+}
+
+.el-button.searchbutton.el-button--default {
+    background-color: #134857;
+    color: #fff;
+    border: none;
+}
+
+.el-button--primary:focus,
+.el-button--primary:hover {
+    background-color: #134857;
+    border: none;
+    color: #FFF;
+}
+
+.el-tabs__item:hover {
+    color: #22a2c3;
+}
+
+.el-tabs__active-bar {
+    background-color: #22a2c3;
+}
+
+.el-badge__content {
+    background-color: #f9d27d;
+}
+
+.el-menu-item.is-active {
+    background-color: #134857;
+    color: #f8df72;
+}
+
+/* 用户中心 */
+.el-menu-item {
+    background-color: #134857;
+    color: #ffffff;
+}
+
+.el-menu-item:hover {
+    background-color: #132c33;
+}
+
+.el-submenu__title {
+    background-color: #134857;
+    color: #fffef8;
+}
+
+.el-submenu__title:hover {
+    background-color: #132c33;
+}
+
+.el-submenu .el-menu-item {
+    background-color: #134857;
+    color: #d0dfe6;
+}
+
+.el-submenu .el-menu-item:hover {
+    background-color: #132c33;
+}
+
+.el-submenu .el-menu-item.is-active {
+    background-color: #134857;
+    color: #f8df72;
+}
+
+.all {
+    width: 94%;
+    height: 89vh;
+    /* min-height: 60vh; */
+    /* border: 1px solid rgb(174, 209, 255); */
+    background-color: #d8e3e7;
+    border-radius: 10px;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-top: 2%;
+    margin-bottom: 1.5%;
+}
+
+.el-button:focus,
+.el-button:hover {
+    color: #22a2c3;
+    background-color: #d9f3fa;
+}
+
+/* foot */
+.copyright {
+    color: #134857;
+}
+
+.el-avatar>img {
+    display: block;
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+}

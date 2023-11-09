@@ -1,0 +1,184 @@
+<testExecutions version="1">
+<file path="tests\unit\example.spec.js">
+<testCase name="HelloWorld.vue renders props.msg when passed" duration="139" />
+</file>
+<file path="tests\unit\views\AdminPage.spec.js">
+</file>
+<file path="tests\unit\components\ExbtEditor.spec.js">
+<testCase name="editing exhibition information test getData" duration="83" />
+</file>
+<file path="tests\unit\views\ImgFixingDetail.spec.js">
+</file>
+<file path="tests\unit\views\IndexView.spec.js">
+</file>
+<file path="tests\unit\views\UserExbtDetail.spec.js">
+<testCase name="user exhibition detail page test getData" duration="116" />
+</file>
+<file path="tests\unit\views\MainSearchView.spec.js">
+<testCase name="login test login click" duration="30" />
+<testCase name="login test login" duration="12">
+<failure message="Error"><![CDATA[TypeError: Cannot read properties of undefined (reading &apos;username&apos;)
+    at VueComponent.onLogin (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\src\views\MainSearchView.vue:2436:50)
+    at Object.&lt;anonymous&gt; (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\tests\unit\views\MainSearchView.spec.js:70:26)
+    at Object.asyncJestTest (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+</testCase>
+<testCase name="register test register" duration="11">
+<failure message="Error"><![CDATA[TypeError: Cannot read properties of undefined (reading &apos;username&apos;)
+    at VueComponent.onSignup (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\src\views\MainSearchView.vue:2510:51)
+    at Object.&lt;anonymous&gt; (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\tests\unit\views\MainSearchView.spec.js:86:26)
+    at Object.asyncJestTest (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+</testCase>
+</file>
+<file path="tests\unit\views\ExbtDetail.spec.js">
+<testCase name="exhibition detail page test getData" duration="63" />
+</file>
+<file path="tests\unit\views\AllImagesView.spec.js">
+<testCase name="login test login click" duration="9" />
+<testCase name="login test login" duration="5">
+<failure message="Error"><![CDATA[TypeError: Cannot read properties of undefined (reading &apos;username&apos;)
+    at VueComponent.onLogin (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\src\views\AllImagesView.vue:3828:52)
+    at Object.&lt;anonymous&gt; (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\tests\unit\views\AllImagesView.spec.js:71:26)
+    at Object.asyncJestTest (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+</testCase>
+<testCase name="register test register" duration="1">
+<failure message="Error"><![CDATA[TypeError: Cannot read properties of undefined (reading &apos;username&apos;)
+    at VueComponent.onSignup (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\src\views\AllImagesView.vue:3902:54)
+    at Object.&lt;anonymous&gt; (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\tests\unit\views\AllImagesView.spec.js:87:26)
+    at Object.asyncJestTest (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+</testCase>
+<testCase name="search pictures test mounted list" duration="11">
+<failure message="Error"><![CDATA[Error: expect(received).toEqual(expected) // deep equality
+
+Expected: {&quot;id&quot;: 1, &quot;intro&quot;: &quot;test&quot;, &quot;like&quot;: true, &quot;likesNum&quot;: 10, &quot;pic&quot;: &quot;&quot;, &quot;tags&quot;: [], &quot;title&quot;: &quot;test&quot;}
+Received: undefined
+    at Object.&lt;anonymous&gt; (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\tests\unit\views\AllImagesView.spec.js:96:43)
+    at Object.asyncJestTest (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+</testCase>
+<testCase name="search pictures test mounted images num" duration="2" />
+<testCase name="search pictures test mounted rows num" duration="1" />
+<testCase name="search pictures test mounted last row num" duration="1" />
+<testCase name="search pictures test search list" duration="32">
+<failure message="Error"><![CDATA[Error: expect(received).toEqual(expected) // deep equality
+
+Expected: {&quot;id&quot;: 1, &quot;intro&quot;: &quot;test&quot;, &quot;like&quot;: true, &quot;likesNum&quot;: 10, &quot;pic&quot;: &quot;&quot;, &quot;tags&quot;: [], &quot;title&quot;: &quot;test&quot;}
+Received: undefined
+    at Object.&lt;anonymous&gt; (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\tests\unit\views\AllImagesView.spec.js:117:43)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+</testCase>
+<testCase name="search pictures test search results num" duration="17" />
+<testCase name="search pictures test search rows num" duration="13" />
+<testCase name="search pictures test search last row num" duration="8" />
+</file>
+<file path="tests\unit\views\AllExhibsView.spec.js">
+<testCase name="login test login click" duration="10" />
+<testCase name="login test login" duration="3">
+<failure message="Error"><![CDATA[TypeError: Cannot read properties of undefined (reading &apos;username&apos;)
+    at VueComponent.onLogin (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\src\views\AllExhibsView.vue:3961:51)
+    at Object.&lt;anonymous&gt; (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\tests\unit\views\AllExhibsView.spec.js:72:26)
+    at Object.asyncJestTest (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+</testCase>
+<testCase name="register test register" duration="1">
+<failure message="Error"><![CDATA[TypeError: Cannot read properties of undefined (reading &apos;username&apos;)
+    at VueComponent.onSignup (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\src\views\AllExhibsView.vue:4035:53)
+    at Object.&lt;anonymous&gt; (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\tests\unit\views\AllExhibsView.spec.js:88:26)
+    at Object.asyncJestTest (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+</testCase>
+<testCase name="search exhibits test mounted list" duration="13">
+<failure message="Error"><![CDATA[Error: expect(received).toEqual(expected) // deep equality
+
+Expected: {&quot;id&quot;: 1, &quot;intro&quot;: &quot;test&quot;, &quot;like&quot;: true, &quot;pic&quot;: &quot;&quot;, &quot;style&quot;: 0, &quot;tags&quot;: [], &quot;time&quot;: 0, &quot;title&quot;: &quot;test&quot;}
+Received: undefined
+    at Object.&lt;anonymous&gt; (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\tests\unit\views\AllExhibsView.spec.js:97:45)
+    at Object.asyncJestTest (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\node_modules\jest-jasmine2\build\queueRunner.js:73:41
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+</testCase>
+<testCase name="search exhibits test mounted exhibits num" duration="2" />
+<testCase name="search exhibits test mounted rows num" duration="2" />
+<testCase name="search exhibits test mounted last row num" duration="1" />
+<testCase name="search exhibits test search list" duration="35">
+<failure message="Error"><![CDATA[Error: expect(received).toEqual(expected) // deep equality
+
+Expected: {&quot;id&quot;: 1, &quot;intro&quot;: &quot;test&quot;, &quot;like&quot;: true, &quot;pic&quot;: &quot;&quot;, &quot;style&quot;: 0, &quot;tags&quot;: [], &quot;time&quot;: 0, &quot;title&quot;: &quot;test&quot;}
+Received: undefined
+    at Object.&lt;anonymous&gt; (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\tests\unit\views\AllExhibsView.spec.js:119:45)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+</testCase>
+<testCase name="search exhibits test search results num" duration="15" />
+<testCase name="search exhibits test search rows num" duration="11" />
+<testCase name="search exhibits test search last row num" duration="9" />
+</file>
+<file path="tests\unit\components\admin_page\UserManagement.spec.js">
+<testCase name="pictures search handle click" duration="69" />
+<testCase name="pictures search search by" duration="70" />
+<testCase name="pictures search sort by" duration="9" />
+<testCase name="pictures search other functions" duration="163" />
+</file>
+<file path="tests\unit\components\admin_page\FixOverview.spec.js">
+<testCase name="pictures search handle click" duration="53">
+<failure message="Error"><![CDATA[TypeError: Cannot read properties of undefined (reading &apos;title&apos;)
+    at Object.&lt;anonymous&gt; (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\tests\unit\components\admin_page\FixOverview.spec.js:38:38)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+</testCase>
+<testCase name="pictures search search by" duration="92">
+<failure message="Error"><![CDATA[TypeError: Cannot read properties of undefined (reading &apos;title&apos;)
+    at Object.&lt;anonymous&gt; (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\tests\unit\components\admin_page\FixOverview.spec.js:47:38)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+</testCase>
+<testCase name="pictures search sort by" duration="125" />
+<testCase name="pictures search other functions" duration="98" />
+</file>
+<file path="tests\unit\components\admin_page\ExhibitionOverview.spec.js">
+<testCase name="exhibits search handle click" duration="52">
+<failure message="Error"><![CDATA[TypeError: Cannot read properties of undefined (reading &apos;title&apos;)
+    at Object.&lt;anonymous&gt; (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\tests\unit\components\admin_page\ExhibitionOverview.spec.js:41:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+</testCase>
+<testCase name="exhibits search search by" duration="99">
+<failure message="Error"><![CDATA[TypeError: Cannot read properties of undefined (reading &apos;title&apos;)
+    at Object.&lt;anonymous&gt; (E:\THU life\&#x5927;&#x4E8C;&#x4E0B;\&#x8F6F;&#x4EF6;&#x5DE5;&#x7A0B;\test-frontend\tests\unit\components\admin_page\ExhibitionOverview.spec.js:50:34)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)]]></failure>
+</testCase>
+<testCase name="exhibits search sort by" duration="136" />
+<testCase name="exhibits search clear form" duration="4" />
+<testCase name="exhibits search other functions" duration="70" />
+</file>
+</testExecutions>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>canvas合成图片</title>
+		<style type="text/css">
+			#app {
+				margin: 80px;
+				border: 1px solid black;
+			}
+			#aa{
+				width: 500px;
+				height: 400px;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="app" width="1280" height="1280">
+		</canvas>
+		<button onclick="createImg()">下载</button>
+		<img id="aa" />
+		<script type="text/javascript">
+			var abc = ['l2_b_', 'l2_d_', 'l2_f_', 'l2_l_', 'l2_r_', 'l2_u_'];
+			var imgSrcArray = [];
+			for (var i = 0; i < abc.length; i++) {
+				for (var j = 1; j < 4; j++) {
+					for (var k = 1; k < 4; k++) {
+						// 图片地址，前缀可以是碎图存放的地方
+						let jpgsrc = '../assets/outside_raw/' + abc[i] + j + '_' + k + '.jpg';
+						imgSrcArray.push(jpgsrc);
+					}
+				}
+			}
+
+			var canvas = document.getElementById('app');
+			var ctx = canvas.getContext('2d');
+			// 定义一个图片对象
+			function ImageDraw(x, y, src, callback) { 
+				this.img = new Image();
+				this.img.src = src;
+				var self = this;
+				this.x = x;
+				this.y = y;
+				this.img.onload = function(){
+					console.log(self.img, self.x, self.y)
+					ctx.drawImage(self.img, self.x, self.y);
+					ctx.save();
+					if(typeof callback == "function") callback();
+				}
+			}	
+			function createImg(){
+				var strDataURI = canvas.toDataURL("image/png");  //toDataURL方法可以将canvas内容变成图片
+				var dataImg = new Image();
+				dataImg.src = strDataURI;   //strDataURI是组合出的图片地址
+				document.getElementById('aa').src = strDataURI;
+				// 之后的下载方法不想写了，可以直接从网页上下载了
+			}
+			// 每9张可以组成一张完整的图
+            var i = 5;
+			var img1 = new ImageDraw(0, 0,      imgSrcArray[i * 9 + 0]);
+			var img2 = new ImageDraw(512, 0,    imgSrcArray[i * 9 + 1]);
+			var img3 = new ImageDraw(1024, 0,   imgSrcArray[i * 9 + 2]);
+			var img4 = new ImageDraw(0, 512,    imgSrcArray[i * 9 + 3]);
+			var img5 = new ImageDraw(512, 512,  imgSrcArray[i * 9 + 4]);
+			var img6 = new ImageDraw(1024, 512, imgSrcArray[i * 9 + 5]);
+			var img7 = new ImageDraw(0, 1024,   imgSrcArray[i * 9 + 6]);
+			var img8 = new ImageDraw(512, 1024, imgSrcArray[i * 9 + 7]);
+			var img9 = new ImageDraw(1024, 1024,imgSrcArray[i * 9 + 8]);
+		</script>
+	</body>
+</html>
